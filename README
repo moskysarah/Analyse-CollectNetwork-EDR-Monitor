@@ -1,0 +1,16 @@
+AD-Sentinel/
+│
+├── 🔴 01-RedTeam_Implant/
+│   ├── src/ (Code C++ de l'implant)
+│   ├── scripts/ (Recon_AD.ps1)
+│   └── c2_server.py
+│
+├── 🔵 02-BlueTeam_SOC/
+│   ├── src/ (Moniteur SYSVOL C++)
+│   ├── scripts/ (Watcher_AD.ps1)
+│   └── siem_analyzer.py
+│
+└── 🛡️ 03-SecOps_Hardening/
+    ├── audit_ad.ps1
+    ├── audit_reporter.py
+    └── hardening_tool.cpp
